@@ -1,5 +1,7 @@
 # Python Challenge
 
+A programming riddle.
+
 - [Start](http://www.pythonchallenge.com)
 - [Level 1](http://www.pythonchallenge.com/pc/def/map.html)
 - [Level 2](http://www.pythonchallenge.com/pc/def/ocr.html)
