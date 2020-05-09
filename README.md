@@ -2,10 +2,12 @@
 
 A programming riddle.
 
-- [Start](http://www.pythonchallenge.com)
-- [Level 1](http://www.pythonchallenge.com/pc/def/map.html)
-- [Level 2](http://www.pythonchallenge.com/pc/def/ocr.html)
-- [Level 3](http://www.pythonchallenge.com/pc/def/equality.html)
-- [Level 4](http://www.pythonchallenge.com/pc/def/linkedlist.php)
-- [Level 5](http://www.pythonchallenge.com/pc/def/peak.html)
-- [Level 6](http://www.pythonchallenge.com/pc/def/channel.html)
+- Start: http://www.pythonchallenge.com
+- 1: http://www.pythonchallenge.com/pc/def/map.html
+- 2: http://www.pythonchallenge.com/pc/def/ocr.html
+- 3: http://www.pythonchallenge.com/pc/def/equality.html
+- 4: http://www.pythonchallenge.com/pc/def/linkedlist.php
+- 5: http://www.pythonchallenge.com/pc/def/peak.html
+- 6: http://www.pythonchallenge.com/pc/def/channel.html
+- 7: http://www.pythonchallenge.com/pc/def/oxygen.html
+
