@@ -64,15 +64,12 @@ print("done - is line:", i)
 print("Summary - counting the common pixels in the line...")
 summary = []
 for i in range(len(line)):
-    print(i, summary)
     if i == 0:
         summary.append((line[i], 1))
         continue
     elif i == x-1:
         break
     else:
-        print(summary)
-        print(summary[:-1])
         pix, count = summary[-1]
         if line[i] == pix:
             summary[-1] = (pix, count+1)
@@ -83,19 +80,21 @@ print("Summary:")
 for pix, count in summary:
     print(count, pix)
     pass
-
+# roughly 7 pixels per block
 
 print("Translating line to ASCII...")
 translate = ""
 for pix, count in summary:
     r,g,b,a = pix
-    translate += chr(r)
+    if count == 14:
+        translate += chr(r) + chr(r)
+    else:
+        translate += chr(r)
 print(translate)
 
 
-print("Final solution:")
-solution_code = [105, 10, 16, 101, 103, 14, 105, 16, 121]
+solution_chrs = [105, 110, 116, 101, 103, 114, 105, 116, 121]
 solution = ""
-for i in solution_code:
+for i in solution_chrs:
     solution += chr(i)
 print(solution)
