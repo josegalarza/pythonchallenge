@@ -55,6 +55,7 @@ for xy in dots:
 i.save('image.png')
 # It's a cow
 
+
 # Try URL:
 # http://www.pythonchallenge.com/pc/return/cow.html
 # hmm. it's a male.
