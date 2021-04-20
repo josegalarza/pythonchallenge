@@ -12,4 +12,4 @@ A programming riddle.
 - 7: http://www.pythonchallenge.com/pc/def/oxygen.html
 - 8: http://www.pythonchallenge.com/pc/def/integrity.html
 - 9: http://www.pythonchallenge.com/pc/return/good.html
-
+- 10: http://www.pythonchallenge.com/pc/return/bull.html
