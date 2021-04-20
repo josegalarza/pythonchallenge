@@ -2,6 +2,8 @@
 # Python Challenge - Level 9
 # http://www.pythonchallenge.com/pc/return/good.html
 
+
+# From the source code
 first = [
     146,399,163,403,170,393,169,391,166,386,170,381,170,371,170,355,169,346,167,335,170,329,170,320,170,
     310,171,301,173,290,178,289,182,287,188,286,190,286,192,291,194,296,195,305,194,307,191,312,190,316,
@@ -22,7 +24,6 @@ first = [
     111,156,113,170,115,185,118,208,117,223,121,239,128,251,133,259,136,266,139,276,143,290,148,310,151,
     332,155,348,156,353,153,366,149,379,147,394,146,399
 ]
-
 second = [
     156,141,165,135,169,131,176,130,187,134,191,140,191,146,186,150,179,155,175,157,168,157,163,157,159,
     157,158,164,159,175,159,181,157,191,154,197,153,205,153,210,152,212,147,215,146,218,143,220,132,220,
@@ -30,6 +31,33 @@ second = [
     77,155,81,148,87,140,96,138,105,141,110,136,111,126,113,129,118,117,128,114,137,115,146,114,155,115,
     158,121,157,128,156,134,157,136,156,136
 ]
-
 # hint:
 # first+second=?
+
+
+# URL title says 'connect the dots', it suggest these sequence of numbers is a sequence of XY coordenates.
+# Parse sequence of numbers into xy_dots
+dots = []
+for i in range(0, len(first), 2):
+    x = first[i]
+    y = first[i+1]
+    dots.append((x, y))
+for i in range(0, len(second), 2):
+    x = second[i]
+    y = second[i+1]
+    dots.append((x, y))
+# Draw dots in an image
+from PIL import Image, ImageDraw
+i = Image.new('RGB', (1000,1000))
+d = ImageDraw.Draw(i)
+for xy in dots:
+    d.point(xy)
+i.save('image.png')
+# It's a cow
+
+# Try URL:
+# http://www.pythonchallenge.com/pc/return/cow.html
+# hmm. it's a male.
+
+# Solution URL:
+# http://www.pythonchallenge.com/pc/return/bull.html
