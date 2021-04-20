@@ -13,3 +13,4 @@ A programming riddle.
 - 8: http://www.pythonchallenge.com/pc/def/integrity.html
 - 9: http://www.pythonchallenge.com/pc/return/good.html
 - 10: http://www.pythonchallenge.com/pc/return/bull.html
+- 11: http://www.pythonchallenge.com/pc/return/5808.html
