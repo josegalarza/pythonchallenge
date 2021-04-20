@@ -2,7 +2,7 @@
 
 A programming riddle.
 
-- Start: http://www.pythonchallenge.com
+- 0: http://www.pythonchallenge.com
 - 1: http://www.pythonchallenge.com/pc/def/map.html
 - 2: http://www.pythonchallenge.com/pc/def/ocr.html
 - 3: http://www.pythonchallenge.com/pc/def/equality.html
