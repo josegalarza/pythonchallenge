@@ -1,5 +1,6 @@
-# http://www.pythonchallenge.com
-# Level 2
+#!/usr/bin/env python
+
+# Python Challenge - Level 02
 # http://www.pythonchallenge.com/pc/def/ocr.html
 
 def reduce(m):
@@ -1232,3 +1233,10 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 """
 
 print(reduce(m))
+# Output:
+# %$@_^#)&!+]*}[({
+# equality
+
+
+# Solution:
+# https://www.pythonchallenge.com/pc/def/equality.html

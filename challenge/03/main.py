@@ -1,5 +1,6 @@
-# http://www.pythonchallenge.com
-# Level 3
+#!/usr/bin/env python
+
+# Python Challenge - Level 03
 # http://www.pythonchallenge.com/pc/def/equality.html
 
 source_code_hint = """
@@ -1269,6 +1270,10 @@ def solve(s):
 									if s[i+3].isupper():
 										if s[i+4].islower():
 											yield s[i]
-			
-for solution in solve(source_code_hint):
-	print('[+] Solution: %s' % solution)
+
+print("".join([x for x in solve(source_code_hint)]))
+# linkedlist
+
+# Solution:
+# http://www.pythonchallenge.com/pc/def/linkedlist.html
+# http://www.pythonchallenge.com/pc/def/linkedlist.php
